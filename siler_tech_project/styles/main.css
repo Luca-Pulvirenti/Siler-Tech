@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    font-family: roboto,arial;
+}
+
+
+.home {
+    background: url("/siler_tech_project/images/image_siler3.jpg");
+    background-size: cover;  
+    margin-top: 60px;
+    text-align: center;
+
+}
+.home_explaination {
+    padding-top: 100px;
+}
+.home_title {
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+
+.home_description {
+    color:white;
+
+}
+
+.game {
+    background: url("/siler_tech_project/images/image_siler5.jpg");
+    background-size: cover; 
+}
+
+.game_title {
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    width:250px;
+}
+
+.game_description {
+    text-align: center;
+    position: relative;
+    padding-left:120px;
+    width: 300px;
+
+}
+
+.about {
+    background-color: rgb(233, 222, 164);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about_title {
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.news {
+    background-color: blue;
+    
+}
+
+.news_title {
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.home,
+.about,
+.game,
+.news {
+    height: 600px;
+}
